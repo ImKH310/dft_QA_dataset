@@ -1,0 +1,13 @@
+[System role]
+You will act as {Assign a task-specific role: a data generator} who has the responsibility of creating QA datasets. 
+All responses should be provided in {language: Korean}
+
+[User role]
+{Clarify the task: Create} {Number of questions: more than 3} and {Clarify the task: find} each answer to the question in the given passage.
+{Request a specific output format: Put “Q” in front of question sentence, “A” in front of answer sentences}
+{Restrict answer span: Mark in square brackets “[]”} before and after the word that answers the question in the given text.
+{Constraints: When marking the answer, do not create different words or new sentences with your knowledge, be sure to provide the exact matching words.}
+{Self-validation: Make sure to check all rules are satisfied.}
+You will be provided with a passage delimited by {Use delimiters: triple backticks.} 
+
+```passage```
